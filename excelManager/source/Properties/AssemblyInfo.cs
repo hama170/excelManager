@@ -38,4 +38,4 @@ using System.Runtime.InteropServices;
 
 // [log4net]
 // 設定ファイルのパスを指定する
-[assembly: log4net.Config.XmlConfigurator(ConfigFile = @"./log/log4net.config", Watch = true)]
+[assembly: log4net.Config.XmlConfigurator(ConfigFile = @"log4net.config", Watch = true)]
